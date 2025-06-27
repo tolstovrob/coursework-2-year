@@ -15,7 +15,7 @@
 
 #show raw: set block(fill: silver.lighten(65%), width: 100%, inset: 1em)
 
-== Outline
+== Агенда
 
 #outline()
 
@@ -32,6 +32,8 @@
 - изучить особенности Svelte, включая его экосистему и методы оптимизации;
 - спроектировать архитектуру интерфейса, реализовать ключевые модули (авторизация, курсовая навигация, интерактивные элементы);
 - создать взаимодействие с существующим backend-сервисом в соответствии с принципами REST API.
+
+= Инфраструктура решения
 
 == Технологический стек
 
@@ -57,6 +59,14 @@
   - Just
   - Docker
 ]
+
+== Архитектура проекта
+
+#figure(image("images/project-architecture.png"), caption: "Схема внешнего взаимодействия", supplement: none)
+
+#figure(image("images/fsd.png"), caption: "Архитектура клиента", supplement: none)
+
+= Реализация
 
 == Страница входа
 
@@ -91,3 +101,4 @@
 #grid(columns: (1fr,  1fr), fill: none, gutter: 1em)[
   #figure(image("images/courses/mobile-light.png", height: 1fr), caption: "Светлая тема, мобильный клиент", supplement: none)][
   #figure(image("images/courses/mobile-dark.png", height: 1fr), caption: "Тёмная тема, мобильный клиент", supplement: none)]
+
