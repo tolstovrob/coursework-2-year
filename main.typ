@@ -137,3 +137,6 @@
 - создано взаимодействие с существующим backend-сервисом в соответствии с принципами REST API.
 
 #heading(outlined: false)[Спасибо за внимание.]
+
+== Список использованных источников
+#bibliography(full: true, style: "gost-r-705-2008-numeric","thesis.bib")
